@@ -1,0 +1,38 @@
+<!--=================MAIN-CONTENT=====================-->
+<div class="main-content-wrapper">
+    <div class="row main-content">
+      <div class="col-md-9 content-description">
+        <div class="body-title">Tell Us About Yourself</div>
+        <div class="title-description">Thanks for choosing TD Insurance! In order to safely set up your new account, please tell us about yourself.</div>
+        <div class="body-title">Personal Information</div>
+        <!----------- FORM -------------->
+        <form>
+          <select name="title" required style="margin-left:0px">
+            <option value="" disabled selected>Title*</option>
+            <option value="Mr">Mr.</option>
+            <option value="Ms">Ms.</option>            
+          </select>
+          <input type="text" name="fname" placeholder="First Name*" required/>
+          <input type="text" name="mname" placeholder="Middle Name*" />
+          <input type="text" name="lname" placeholder="Last Name*" required/>
+          <input type="email" name="email" placeholder="Email Address*" required/><i class="fa fa-question-circle"></i>
+          <input type="text" onfocus="(this.type='date')"placeholder="Date of Birth*" required> 
+          <input type="number" name="sin" placeholder="Social Insurance Number*" minlength="9" maxlength="9" min="0" required/><i class="fa fa-question-circle"></i>
+          
+          <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 btn-properties">
+                <button class="btn text-white btn-danger" >Cancel</button>
+                <button class="btn btn-success ">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+        
+      <div class="col-md-3">
+        <div class="title-description">You are applying for:</div>
+        <div class="body-title">TD &reg; Travel Medical Insurance</div>
+        <button class="btn btn-success" style="float: left;margin:0px">See More Coverage Options</button>
+      </div>
+    </div>
+  </div>

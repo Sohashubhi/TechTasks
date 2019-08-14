@@ -1,0 +1,96 @@
+/*---- Footer Styling ------*/
+/*------ Setting Footer Wrapper ------*/
+.footer-wrapper {
+    background-color: #1a5336;
+    color: white;
+    padding: 50px 0px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.footer-content {
+    background-repeat: no-repeat;
+    background-position: left -50px bottom 30px;
+    background-size: 383px 342px;
+    padding: 55px 0 0 0;
+    text-align: center;
+}
+
+.footer-heading {
+    font-family: "Webly Sleek Light",Helvetica-,droid sans,sans-serif;
+    font-size: 35px;
+    margin: 0 auto 40px auto;
+    line-height: 1.0;
+    color: white;
+}
+.image-style {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+li {
+    float: left;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.backround-green {
+    border-color: #008a00;
+}
+/* Styling Footer Links */
+.footer-links {
+    display: inline-block; 
+    margin-left: 0px; 
+    padding-left: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    border:1px solid #008a00;
+}
+
+/* Styling Footer Social Media */
+.footer-social-media  {
+    display: inline-block; 
+}
+
+.footer-link-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;    
+    position: relative;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect */
+  .fa:hover {
+    background-color: #008a00;
+  }
+  
+  /* Set a specific features for each brand */
+  
+  /* Facebook,Twitter ,Youtube,Feed*/
+  .fa-facebook  .fa-twitter .fa-youtube .fa-feed {
+    background: #1a5336;
+    color: white;
+    border: 2px solid #008a00 ;
+  }
+  
